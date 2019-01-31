@@ -40,4 +40,62 @@
     </table>
   </p>
   
+  <li>
+    <h3>Atividade 2</h3>
+  </li>
+
+  <p>
+    Elabore um programa que imprima todos os <strong>números</strong> palindrômicos entre dois outros números. Tal como as palavras, os números palindrômicos mantém o mesmo valor se lidos de trás para frente.
+  </p>
+  <p>
+    Exemplo 1: Dado o número inicial 1 e o número final 20, o resultado seria: 1, 2, 3, 4, 5, 6, 7, 8, 9, 11.
+  </p>
+  <p>
+    Para o desafio, assuma:
+    <ul>
+      <li>Apenas inteiros positivos poder ser usados como limites.<li>
+      <li>Números de um algarismo são palíndromos por definição.</li>
+      <li>Máximo número: (1 << 64) - 1 (máximo unsigned int de 64 bits)
+    </ul>
+    <br>
+    <table>
+      <tablehead>
+        <tr>
+          <td coolspan="3" align="center">
+            <strong>Respostas</strong>
+          </td>
+        </tr>
+      </tablehead>
+      <tablebody>
+        <tr>
+          <td>
+            C
+          </td>
+          <td>
+            Java
+          </td>
+          <td>
+            Python
+          </td>
+        </tr>
+      </tablebody>
+    </table>
+  </p>
+</ul>
+
+<br>
+
+<h4>Fontes</h4>
+
+<ul>
+  <li>
+    <a href="https://osprogramadores.com/desafios/">
+      Os Programadores 
+    </a>. Grupo sem fins lucrativos, com o objetivo de disseminar conhecimento em várias áreas da ciência da computação
+  </li>
+  <li>
+    <a href="https://fit.faccat.br/~fpereira/apostilas/exerc_resp_alg_mar2007.pdf">
+      Exercícios e Respostas de Lógica de Programação -Algoritmos-
+    </a>. Profª Flávia Pereira de Carvalho
+  </li>
 </ul>
