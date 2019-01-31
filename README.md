@@ -69,7 +69,7 @@
       <tablebody>
         <tr>
           <td>
-            <a href"https://github.com/Josue10599/estudos-trabalhos/tree/master/c/atividade2">
+            <a href="https://github.com/Josue10599/estudos-trabalhos/tree/master/c/atividade2">
               C
             </a>
           </td>
