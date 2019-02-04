@@ -81,6 +81,35 @@
       </tablebody>
     </table>
   </p>
+
+  <li>
+    <h3>Atividade 3</h3>
+  </li>
+  <p>
+    Elabore um programa que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade dessa pessoa expressa apenas em dias. Considerar anos com 365 e mês com 30 dias
+  </p>
+  <br>
+  <table>
+    <tablehead>
+      <tr>
+        <td coolspan="3" align="center">
+          <strong>Respostas</strong>
+      </tr>
+    </tablehead>
+    <tablebody>
+      <tr>
+        <td>
+          C
+        </td>
+        <td>
+          Java
+        </td>
+        <td>
+          Python
+        </td>
+      </tr>
+    </tablebody>
+  </table>
 </ul>
 
 <br>
