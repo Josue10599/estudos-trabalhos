@@ -1,4 +1,4 @@
-public class Main {
+public class Principal {
     public static void main (String[] args){
         String inicio = System.console().readLine("A verificação de números palindromes, começa em: ");
         String fim = System.console().readLine("e termina em: ");
