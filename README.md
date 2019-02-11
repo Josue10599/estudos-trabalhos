@@ -105,13 +105,19 @@
     <tablebody>
       <tr>
         <td>
-          C
+            <a href="https://github.com/Josue10599/estudos-trabalhos/tree/master/c/atividade3">
+              C
+            </a>
         </td>
         <td>
-          Java
+            <a href="https://github.com/Josue10599/estudos-trabalhos/tree/master/java/atividade3">
+              Java
+            </a>
         </td>
         <td>
-          Python
+          <a href="https://github.com/Josue10599/estudos-trabalhos/tree/master/python/atividade3">
+            Python
+          </a>
         </td>
       </tr>
     </tablebody>
