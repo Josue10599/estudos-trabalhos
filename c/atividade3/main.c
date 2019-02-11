@@ -5,7 +5,7 @@ int main(){
 
     printf("Digite a data para ver quanto tempo se passou após ela (Exemplo: 10 05 1999): ");
     scanf("%d %d %d", &dia, &mes, &ano);
-    if (dia <= 31 && mes <= 12 && ano >= 1900) 
+    if (dia <= 31 && mes <= 12 && ano >= 0) 
     {
         aniversario(dia, mes, ano);
     }

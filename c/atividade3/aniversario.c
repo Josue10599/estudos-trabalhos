@@ -1,7 +1,7 @@
 #include "aniversario.h"
 
 void aniversario (int dia, int mes, int ano){
-    int diasVividos = numeroDeDias(numeroDoDiaQueNasceu(dia,mes), ano);
+    int diasVividos = numeroDeDias(numeroDoDiaQueNasceu(dia,mes,ano), ano);
     int mesesVividos = numeroDeMeses(mes, ano);
     int anosVividos = numeroDeAnos(ano, mes, dia);
     int horasVididas = numeroDeHoras(diasVividos);
@@ -13,11 +13,25 @@ void aniversario (int dia, int mes, int ano){
     printf("Número de horas vividas: %d \n", horasVididas);
 }
 
-int numeroDoDiaQueNasceu(int dia, int mes){
+bool bissexto(int ano){
+    return (ano % 4 == 0 && (ano % 100 != 0 || ano % 400 == 0));
+}
+
+int numeroDoDiaQueNasceu(int dia, int mes, int ano){
     int contDia, contMes, dias = 1;
     for (contDia = 1, contMes = 1, dias = 1; contMes != mes || contDia != dia; contDia++, dias++){
         if (contMes < 8){
-            if (contMes % 2 == 0){
+            if (contMes == 2){
+                if (bissexto(ano)){
+                    if (contDia == 29){
+                        contDia = 0;
+                        contMes++;
+                    }
+                } else if (contDia == 28){
+                        contDia = 0;
+                        contMes++;
+                }
+            } else if (contMes % 2 == 0){
                 if (contDia == 30){
                     contDia = 0;
                     contMes++;
@@ -42,9 +56,9 @@ int numeroDoDiaQueNasceu(int dia, int mes){
 }
 
 int numeroDeDias(int numeroDoDiaQueNasceu, int anoQueNasceu){
-    int dias = 1, i;
+    int dias = 0, i;
     for(i = anoQueNasceu; i < anoAtual(); i++){
-        if (((i % 4 == 0) || (i % 400 == 0)) && (i % 100 != 0)){
+        if (bissexto(i)){
             dias += 366;
         } else {
             dias += 365;
@@ -93,7 +107,7 @@ int anoAtual(){
 
 int numeroDoDiaAtual(){
     struct tm dias = dataeTempo();
-    return dias.tm_yday;
+    return dias.tm_yday + 1;
 }
 
 struct tm dataeTempo(){

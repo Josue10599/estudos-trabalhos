@@ -6,8 +6,11 @@
 
 void aniversario (int dia, int mes, int ano);
 
+//Retorna se o ano passado por parâmetro é bissexto
+bool bissexto (int ano);
+
 //Retorna o número de dias que passou no ano até a data passada na função aniversário()
-int numeroDoDiaQueNasceu(int dia, int mes);
+int numeroDoDiaQueNasceu(int dia, int mes, int ano);
 
 //Retorna o número de dias que se passou após a data passada na função aniversário()
 int numeroDeDias(int numeroDoDiaQueNasceu, int anoQueNasceu);

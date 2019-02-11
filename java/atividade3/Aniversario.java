@@ -18,7 +18,7 @@ public class Aniversario {
         } else{
             System.out.println("Mês inválido!");
         }
-        if (ano >= 1900){
+        if (ano > 0){
             this.ano = ano;
         } else {
             System.out.println("Ano inválido!");
@@ -51,27 +51,29 @@ public class Aniversario {
 
     private int numeroDoDia(){
         int numeroDoDia = 0;
-        for (int contDia = 1, contMes = 1; contMes < mes; contDia++, numeroDoDia++){
+        for (int contDia = 0, contMes = 1; contMes < mes; contMes++){
             if (contMes < 8){
-                if (contMes % 2 == 0){
-                    if (contDia == 30){
-                        contDia = 0;
-                        contMes++;
+                if (contMes == 2){
+                    if (bissexto(ano)){
+                        contDia = 29;
                     }
-                } else if (contDia == 31){
-                    contDia = 0;
-                    contMes++;
+                    else {
+                        contDia = 28;
+                    }
+                } else if (contMes % 2 == 0){
+                    contDia = 30;
+                } else {
+                    contDia = 31;
                 }
             } else {
                 if (contMes % 2 == 0){
-                    if (contDia == 31){
-                        contDia = 0;
-                        contMes++;
-                    }
-                } else if (contDia == 30){
-                    contDia = 0;
-                    contMes++;
+                    contDia = 31;
+                } else {
+                    contDia = 30;
                 }
+            }
+            for(int i = 0; i < contDia; i++){
+                numeroDoDia++;
             }
         }
         return numeroDoDia + dia;
@@ -108,7 +110,7 @@ public class Aniversario {
     }
 
     private boolean bissexto(int ano){
-        return (ano % 4 == 0 || ano % 400 == 0) && ano % 100 != 0;
+        return (ano % 4 == 0 && (ano % 100 != 0 || ano % 400 == 0));
     }
 
     @Override
