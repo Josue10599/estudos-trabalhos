@@ -98,7 +98,7 @@
   <table>
     <tablehead>
       <tr>
-        <td coolspan="3" align="center">
+        <td colspan="3" align="center">
           <strong>Respostas</strong>
       </tr>
     </tablehead>
