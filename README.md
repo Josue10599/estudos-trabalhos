@@ -93,35 +93,49 @@
   </li>
   <p>
     Elabore um programa que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade dessa pessoa expressa apenas em dias. Considerar anos com 365 e mês com 30 dias
+    <br>
+    <table>
+      <tablehead>
+        <tr>
+          <td colspan="3" align="center">
+            <strong>Respostas</strong>
+        </tr>
+      </tablehead>
+      <tablebody>
+        <tr>
+          <td>
+              <a href="https://github.com/Josue10599/estudos-trabalhos/tree/master/c/atividade3">
+                C
+              </a>
+          </td>
+          <td>
+              <a href="https://github.com/Josue10599/estudos-trabalhos/tree/master/java/  atividade3">
+                Java
+              </a>
+          </td>
+          <td>
+            <a href="https://github.com/Josue10599/estudos-trabalhos/tree/master/python/atividade3">
+              Python
+            </a>
+          </td>
+        </tr>
+      </tablebody>
+    </table>
   </p>
-  <br>
-  <table>
-    <tablehead>
-      <tr>
-        <td colspan="3" align="center">
-          <strong>Respostas</strong>
-      </tr>
-    </tablehead>
-    <tablebody>
-      <tr>
-        <td>
-            <a href="https://github.com/Josue10599/estudos-trabalhos/tree/master/c/atividade3">
-              C
-            </a>
-        </td>
-        <td>
-            <a href="https://github.com/Josue10599/estudos-trabalhos/tree/master/java/atividade3">
-              Java
-            </a>
-        </td>
-        <td>
-          <a href="https://github.com/Josue10599/estudos-trabalhos/tree/master/python/atividade3">
-            Python
-          </a>
-        </td>
-      </tr>
-    </tablebody>
-  </table>
+
+  <li>
+    <h3>Atividade 4</h3>
+  </li>
+  <p>
+    Escreva um algotimo que possibilite escolher a escala de temperatura e que com isso leia o valor e escreva o correspondente nas outras escalas.
+    <p>
+      Escalas de Temperatura
+      <li>Celsius</li>
+      <li>Fahrenheit</li>
+      <li>Kelvin</li>
+    </p>
+    <em>Observação:</em> Para testar se a resposta retornada está correta, saiba que 100ºC = 212F e 100ºC = 373,15K
+  </p>
 </ul>
 
 <br>
