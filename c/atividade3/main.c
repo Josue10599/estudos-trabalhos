@@ -1,5 +1,20 @@
+ /**
+ *  Este material foi criado com fins de estudos e aprendizagem,
+ * com o objetivo de divulgar e demonstrar os meus códigos e a
+ * minha evolução na área.
+ * 
+ * Autor: Josue Lopes
+ * 
+ * main.c
+ */
+
 #include "aniversario.h"
 
+/**
+ * Ao iniciar o programa uma data é solicitada, ao receber a data é contado 
+ * os números de dias, meses, anos e horas que se passaram até o dia que o programa
+ * está sendo executado no computador.
+ */
 int main(){
     int dia, mes, ano;
 

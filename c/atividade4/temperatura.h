@@ -1,3 +1,13 @@
+ /**
+ *  Este material foi criado com fins de estudos e aprendizagem,
+ * com o objetivo de divulgar e demonstrar os meus códigos e a
+ * minha evolução na área.
+ * 
+ * Autor: Josue Lopes
+ * 
+ * temperatura.h
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

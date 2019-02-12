@@ -1,7 +1,22 @@
+ /**
+ *  Este material foi criado com fins de estudos e aprendizagem,
+ * com o objetivo de divulgar e demonstrar os meus códigos e a
+ * minha evolução na área.
+ * 
+ * Autor: Josue Lopes
+ * 
+ * main.c
+ */
+
 #include "palindrome.h"
 
+/**
+ * Assim que o programa é iniciado é solicitado um intervalo númerico,
+ * será realizada uma varredura nos valores dentro deste intervalo
+ * procurando os valores palíndromes, quando encontra um esse valor é
+ * apresentado na tela.
+ */
 int main(void){
-
     int minimo, maximo;
 
     printf("Digite o intervalo de números ");
@@ -26,5 +41,5 @@ int main(void){
         }
     }
     printf("\n");
-    return 0;
+    return 1;
 }

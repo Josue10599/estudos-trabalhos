@@ -1,3 +1,13 @@
+/**
+ *  Este material foi criado com fins de estudos e aprendizagem,
+ * com o objetivo de divulgar e demonstrar os meus códigos e a
+ * minha evolução na área.
+ * 
+ * Autor: Josue Lopes
+ * 
+ * primos.c
+ */
+
 #include "primos.h"
 
 void primo (int valor) {

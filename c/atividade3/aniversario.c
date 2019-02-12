@@ -1,3 +1,13 @@
+ /**
+ *  Este material foi criado com fins de estudos e aprendizagem,
+ * com o objetivo de divulgar e demonstrar os meus códigos e a
+ * minha evolução na área.
+ * 
+ * Autor: Josue Lopes
+ * 
+ * aniversario.c
+ */
+
 #include "aniversario.h"
 
 void aniversario (int dia, int mes, int ano){
