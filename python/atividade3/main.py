@@ -1,3 +1,4 @@
+# coding=utf-8
 '''
   Este material foi criado com fins de estudos e aprendizagem,
  com o objetivo de divulgar e demonstrar os meus códigos e a
@@ -7,7 +8,6 @@
 
  main.py
 '''
-# coding=utf-8
 from datetime import datetime
 
 # Retorna a data atual do computador.
