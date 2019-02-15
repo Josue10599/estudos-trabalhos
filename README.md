@@ -109,7 +109,7 @@
               </a>
           </td>
           <td>
-              <a href="https://github.com/Josue10599/estudos-trabalhos/tree/master/java/  atividade3">
+              <a href="https://github.com/Josue10599/estudos-trabalhos/tree/master/java/atividade3">
                 Java
               </a>
           </td>
@@ -135,6 +135,34 @@
       <li>Kelvin</li>
     </p>
     <em>Observação:</em> Para testar se a resposta retornada está correta, saiba que 100ºC = 212F e 100ºC = 373,15K
+    <br>
+    <table>
+      <tablehead>
+        <tr>
+          <td colspan="3" align="center">
+            <strong>Respostas</strong>
+        </tr>
+      </tablehead>
+      <tablebody>
+        <tr>
+          <td>
+              <a href="https://github.com/Josue10599/estudos-trabalhos/tree/master/c/atividade4">
+                C
+              </a>
+          </td>
+          <td>
+              <a href="https://github.com/Josue10599/estudos-trabalhos/tree/master/java/atividade4">
+                Java
+              </a>
+          </td>
+          <td>
+            <a href="https://github.com/Josue10599/estudos-trabalhos/tree/master/python/atividade4">
+              Python
+            </a>
+          </td>
+        </tr>
+      </tablebody>
+    </table>
   </p>
 </ul>
 
