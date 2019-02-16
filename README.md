@@ -53,9 +53,9 @@
   <p>
     Para o desafio, assuma:
     <ul>
-      <li>Apenas inteiros positivos poder ser usados como limites.<li>
+      <li>Apenas inteiros positivos poder ser usados como limites.</li>
       <li>Números de um algarismo são palíndromos por definição.</li>
-      <li>Máximo número: (1 << 64) - 1 (máximo unsigned int de 64 bits)
+      <li>Máximo número: (1 << 64) - 1 (máximo unsigned int de 64 bits)</li>
     </ul>
     <br>
     <table>
@@ -129,10 +129,12 @@
   <p>
     Escreva um algotimo que possibilite escolher a escala de temperatura e que com isso leia o valor e escreva o correspondente nas outras escalas.
     <p>
-      Escalas de Temperatura
-      <li>Celsius</li>
-      <li>Fahrenheit</li>
-      <li>Kelvin</li>
+      <i>Escalas de Temperatura:</i>
+      <ul>
+        <li>Celsius</li>
+        <li>Fahrenheit</li>
+        <li>Kelvin</li>
+      </ul>
     </p>
     <em>Observação:</em> Para testar se a resposta retornada está correta, saiba que 100ºC = 212F e 100ºC = 373,15K
     <br>
